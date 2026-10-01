@@ -95,6 +95,7 @@ class JWTBearerTokenValidator(BearerTokenValidator):
             "acr": {"essential": False},
             "amr": {"essential": False},
             "scope": {"essential": False},
+            "authorization_details": {"essential": False},
             "groups": {"essential": False},
             "roles": {"essential": False},
             "entitlements": {"essential": False},
